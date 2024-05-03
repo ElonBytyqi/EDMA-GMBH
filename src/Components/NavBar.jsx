@@ -3,7 +3,10 @@ import Header from './Header'
 
 const NavBar = () => {
   return (
-   <Header/>
+   
+        <Header/>
+   
+ 
   )
 }
 
