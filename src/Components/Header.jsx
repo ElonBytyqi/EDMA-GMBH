@@ -74,9 +74,57 @@ const Header = () => {
                   location.pathname === el.slug ? "font-bold underline" : ""
                 }`}
               >
-                <Link className="" to={el.slug}>
-                  {el.name}
-                </Link>
+                {el.name === "SERVICES" || el.name === "BUSINESS SECTORS" ? (
+                  <div className="dropdown cursor-pointer bg-transparent ">
+                    <span>{el.name}</span>
+                    <div className="dropdown-content w-[250px] pt-2  ">
+                      <ul>
+                        {el.name === "SERVICES" ? (
+                          <>
+                        
+                            
+
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center  items-center border-b-2  text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/service1">CONSULTING AND STUDIES</Link>
+                            </li> 
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/service2">
+                                ANALYSIS AND CONCEPTUAL   DESING
+                              </Link>
+                            </li>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/service3">PROJECT SUPERVISION</Link>
+                            </li>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/service4">PROJECT MANAGEMENT</Link>
+                            </li>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/service5">CONSTRUCTION</Link>
+                            </li>
+                          </>
+                        ) : el.name === "BUSINESS SECTORS" ? (
+                          <>
+                            <li className="bg-[#003D6D] text-white h-12  flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/sectors1">DIE ARCHITEKTUR</Link>
+                            </li>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center  text-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/sectors2">
+                                ENERGY EFFIENCY & RENEWABLE ENERGY
+                              </Link>
+                            </li>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/sectors3">WATER & INFRASTRUCTURE</Link>
+                            </li>
+                          </>
+                        ) : null}
+                      </ul>
+                    </div>
+                  </div>
+                ) : (
+                  <Link className="" to={el.slug}>
+                    {el.name}
+                  </Link>
+                )}
               </li>
             ))}
             {state.userInfo ? (
