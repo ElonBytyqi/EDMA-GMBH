@@ -1,0 +1,117 @@
+
+
+{
+  
+    "clients": [
+      {
+        "id": 1,
+        "name": "IRCON",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/1.-IRCON.png",
+        "description": "Ircon s.r.o. is a consulting and implementation company that focuses on the preparation and implementation of development projects in the field of water, water management, environmental technologies and agriculture."
+      },
+      {
+        "id": 2,
+        "name": "TOPALWATER",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/2.-TOPOL-WATER.png",
+        "description": "We strive to always offer something extra at comparable prices to competitive treatment plants whether it concerns quality, reliability, higher efficiency or demands on the operation of the treatment plant. What makes TOPAS treatment plants unique?"
+      },
+      {
+        "id": 3,
+        "name": "Ministria e administrates publike",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/3.-MINISTRIA-E-ADMINISTRATES-PUBLIKE.png",
+        "description": "Public administration, or public policy and administration, is the academic discipline that studies how public policy is created and implemented."
+      },
+      {
+        "id": 4,
+        "name": "CZECH REPUBLIC",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/4.-CZECH-DEVELOPMENT-AGENCY.png",
+        "description": "Description of CZECH REPUBLIC"
+      },
+      {
+        "id": 5,
+        "name": "Poppins ",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/5.-POPPINS.png",
+        "description": "Description of Poppins "
+      },
+      {
+        "id": 6,
+        "name": "Embassy of the Czech Republic",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/6.-AMABASADA-E-CEKISE.png",
+        "description": "Embassy of the Czech Republic"
+      },
+      {
+        "id": 7,
+        "name": "SHSKUK",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/7.-QKUK.png",
+        "description": "Description of  SHSKUK"
+      },
+      {
+        "id": 8,
+        "name": "Klimor",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/8.-KLIMOR.png",
+        "description": "Description of  Klimor"
+      },
+      {
+        "id": 9,
+        "name": "TOPLING",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/9.-TOPLING.png",
+        "description": "Description of  TOPLING"
+      },
+      {
+        "id": 10,
+        "name": "Boretem",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/10.-BOROTERM.png",
+        "description": "Description of  Boretem"
+      },
+      {
+        "id": 11,
+        "name": "Komuna e Prishtines",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/11.-KOMUNA-E-PRISHTINES.png",
+        "description": "Description of Komuna e Prishtines"
+      },
+      {
+        "id": 12,
+        "name": "  Kru Prishtina",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/12.-KRU-PRISHTINA.png",
+        "description": "Description of Kru Prishtina"
+      },
+      {
+        "id": 13,
+        "name": "Universiteti i Prishtines",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/13.-UNIVERSITETI-I-PRISHTINES.png",
+        "description": "Description of Universiteti i Prishtines"
+      },
+      {
+        "id": 14,
+        "name": "AQUALIA",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/14.-AQUALIA-INFRASTRUCTURA.png",
+        "description": "Description of AQUALIA"
+      },
+      {
+        "id": 15,
+        "name": "AMIA-ENERGY",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/17.-AMIA-ENERGY.png",
+        "description": "Description of AMIA-ENERGY"
+      },
+      {
+        "id": 16,
+        "name": "SONNETERRASSEN-PEJA ",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/18.-SONNETERRASSEN-PEJA.png",
+        "description": "Description of SONNETERRASSEN-PEJA"
+      },
+    
+      {
+        "id": 17,
+        "name": "Komuna e Rahovecit",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/21.-KOMUNA-E-RAHOVECIT.png",
+        "description": "Description of Komuna e Rahovecit"
+      },
+      {
+        "id": 18,
+        "name": "Iber Lepenci",
+        "logo": "https://edma-gmbh.netlify.app/wp-content/uploads/2019/11/24.-IBER-LEPENCI.png",
+        "description": "Description of Iber Lepenci"
+      }
+    ]
+  }
+  

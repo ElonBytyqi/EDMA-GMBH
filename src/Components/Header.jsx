@@ -84,36 +84,36 @@ const Header = () => {
                         
                             
 
-                            <li className="bg-[#003D6D] text-white h-12 flex justify-center  items-center border-b-2  text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
-                              <Link to="/service1">CONSULTING AND STUDIES</Link>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center  items-center border-b-[1px]  text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/consulting">CONSULTING AND STUDIES</Link>
                             </li> 
-                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
-                              <Link to="/service2">
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-[1px] text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/analycis-and-conceptual">
                                 ANALYSIS AND CONCEPTUAL   DESING
                               </Link>
                             </li>
-                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
-                              <Link to="/service3">PROJECT SUPERVISION</Link>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-[1px] text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/project-supervision">PROJECT SUPERVISION</Link>
                             </li>
-                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
-                              <Link to="/service4">PROJECT MANAGEMENT</Link>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-[1px] text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/project-management">PROJECT MANAGEMENT</Link>
                             </li>
-                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
-                              <Link to="/service5">CONSTRUCTION</Link>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-[1px] text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/construction">CONSTRUCTION</Link>
                             </li>
                           </>
                         ) : el.name === "BUSINESS SECTORS" ? (
                           <>
-                            <li className="bg-[#003D6D] text-white h-12  flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
-                              <Link to="/sectors1">DIE ARCHITEKTUR</Link>
+                            <li className="bg-[#003D6D] text-white h-12  flex justify-center items-center border-b-[1px] text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/architecture">DIE ARCHITEKTUR</Link>
                             </li>
-                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center  text-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
-                              <Link to="/sectors2">
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center  text-center border-b-[1px] text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/energy">
                                 ENERGY EFFIENCY & RENEWABLE ENERGY
                               </Link>
                             </li>
-                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-2 text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
-                              <Link to="/sectors3">WATER & INFRASTRUCTURE</Link>
+                            <li className="bg-[#003D6D] text-white h-12 flex justify-center items-center border-b-[1px] text-[13px] ease-in-out duration-300 border-white hover:text-slate-200">
+                              <Link to="/water">WATER & INFRASTRUCTURE</Link>
                             </li>
                           </>
                         ) : null}
