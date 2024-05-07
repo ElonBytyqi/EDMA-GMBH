@@ -146,3 +146,13 @@ padding: 0;
   }
 }
 
+@media (max-width: 576px) {
+  .modal-content {
+    width: 90%; /* Adjust width for smaller screens */
+    min-width: 90%;
+     /* Adjust max-width for smaller screens */
+    margin: 10% auto; /* Adjust margin for smaller screens */
+    padding: 15px;
+    font-size: 13px; /* Adjust padding for smaller screens */
+  }
+}

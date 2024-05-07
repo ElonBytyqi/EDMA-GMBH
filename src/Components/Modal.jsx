@@ -4,8 +4,8 @@ import "./modal.css"
 
 const Modal = ({ client, closeModal }) => {
   return (
-    <div className="modal">
-      <div className="modal-content">
+    <div className="modal ">
+      <div className="modal-content ">
         <span className="close" onClick={closeModal}>&times;</span>
         <h2 className='pb-8 font-bold text-blue-800 '>{client.name}</h2>
         <img className='h-20 rounded-md' src={client.logo} alt={client.name} />
