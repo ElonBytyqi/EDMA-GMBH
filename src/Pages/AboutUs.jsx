@@ -4,8 +4,11 @@ import Content from "../Components/AboutUs/Content";
 import Specilization from "../Components/Specilization";
 import Footer from "../Components/Footer";
 import Loader from "./Loader";
+import { useTitle } from "../hooks/useTitle";
 
 const AboutUs = () => {
+useTitle("About Us")
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

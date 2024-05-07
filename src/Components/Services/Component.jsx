@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../NavBar';
 import Footer from '../Footer';
+import { useTitle } from '../../hooks/useTitle';
 
 const Component = ({ title, img, imgIcon, desc, imgHeight }) => {
   const [scale, setScale] = useState(1);
-
+useTitle("Service");
   useEffect(() => {
     const timer1 = setTimeout(() => {
       setScale(0.98);
@@ -12,7 +13,7 @@ const Component = ({ title, img, imgIcon, desc, imgHeight }) => {
   
 
   
-
+      
     return () => {
       clearTimeout(timer1);
    

@@ -3,8 +3,10 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Content from "../Components/Contact/Content";
 import Loader from "./Loader";
+import { useTitle } from "../hooks/useTitle";
 
 const Contact = () => {
+  useTitle("Contact")
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

@@ -120,6 +120,7 @@ padding: 0;
 @media only screen and (min-width: 576px) {
   .nav a {
     margin-right: 20px;
+    overflow-y: auto;
   }
   
   .nav .btn-media {
@@ -129,6 +130,7 @@ padding: 0;
   .nav .menu {
     display: flex;
   }
+ 
 }
 
 @media only screen and (max-width: 576px) {
@@ -156,3 +158,4 @@ padding: 0;
     font-size: 13px; /* Adjust padding for smaller screens */
   }
 }
+

@@ -1,6 +1,8 @@
 import React from 'react'
+import { useTitle } from '../hooks/useTitle'
 
 const ArchitectureCom = ({title, desc, button,buttonWidth}) => {
+  useTitle("Busisness Sectors")
   return (
     <div className='pt-36 max-w-[1200px] mx-auto'>
         <h1 className='text-[36px] mb-2 leading-[1.2] font-sans font-normal'>{title}</h1>

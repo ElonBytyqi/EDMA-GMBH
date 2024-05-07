@@ -44,7 +44,9 @@ const Login = () => {
         localStorage.setItem("token", res.data.jwtToken);
         const objToString = JSON.stringify(userInfo);
         localStorage.setItem("userInfo", objToString);
+        
         console.log(userInfo);
+       
         dispatch({
           type: "LOGIN",
           payload: {

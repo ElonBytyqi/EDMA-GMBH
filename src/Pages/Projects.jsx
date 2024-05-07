@@ -5,8 +5,10 @@ import project2 from "../assets/project2.jpeg";
 import project3 from "../assets/project3.jpeg";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
+import { useTitle } from "../hooks/useTitle";
 
 const Projects = () => {
+  useTitle("Project")
   const [showMoreProjects, setShowMoreProjects] = useState(false);
 
   const toggleShowMoreProjects = () => {
@@ -19,35 +21,33 @@ const Projects = () => {
       <div className="p-28 max-w-[1200px] mx-auto">
         <h1 className="text-[32px]">PROJECTS</h1>
         <div className=" mb-10">
-          <div className="flex  p-4 justify-evenly pt-2">
+          <div className="flex  p-4 justify-evenly pt-2 cursor-pointer">
             <Link to="/project/project1">
-            <img className="h-36 hover:scale-75" src={project1} alt="" />
+            <img className="h-36 hover:scale-75 ease-in-out duration-300" src={project1} alt="" />
 
              </Link>
              <Link to="/project/project2">
-            <img className="h-36 hover:scale-75" src={project2} alt="" />
+            <img className="h-36 hover:scale-75 ease-in-out duration-300" src={project2} alt="" />
 
              </Link>
 
              <Link to="/project/project3">
-            <img className="h-36 hover:scale-75" src={project3} alt="" />
+             <img className="h-36 hover:scale-75 ease-in-out duration-300" src={project3} alt="" />
 
              </Link>
             
             {showMoreProjects && (
-            <img className="h-36" src={project2} alt="" />
+            <img className="h-36 hover:scale-75 ease-in-out duration-300" src={project2} alt="" />
 
                  )}
           </div>
           {showMoreProjects && (
-            
-               <div className="flex  p-4 justify-evenly pt-2">
-            <img className="h-36" src={project1} alt="" />
-            <img className="h-36" src={project2} alt="" />
-            <img className="h-36" src={project3} alt="" />
-            <img className="h-36" src={project2} alt="" />
-
-          </div>
+              <div className="transition-all duration-500 flex p-4 justify-evenly pt-2">
+                <img className="h-36 hover:scale-75 ease-in-out duration-300" src={project1} alt="" />
+                <img className="h-36 hover:scale-75 ease-in-out duration-300" src={project2} alt="" />
+                <img className="h-36 hover:scale-75 ease-in-out duration-300" src={project3} alt="" />
+                <img className="h-36 hover:scale-75 ease-in-out duration-300" src={project2} alt="" />
+              </div>
             
           )}
           <button

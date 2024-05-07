@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate, useLocation } from "react-router-dom";
 
 import HomePage from "./Pages/HomePage";
 import Loader from "./Pages/Loader";
@@ -26,15 +26,19 @@ import Project1 from "./Components/Project1";
 import Project2 from "./Components/Project2";
 import Project3 from "./Components/Project3";
 import NotFound from "./Pages/NotFound";
+import Dashboard from "./Pages/Dashboard";
+import Users from "./Components/Users";
 
 const App = () => {
    const token = AuthService.getToken()
   const isAuthenticated = checkToken(token) // Verifikimi i tokenit
-
+ 
+  
   
 
   return (
-    <BrowserRouter>
+   <div className="dark:bg-slate-800 dark:text-white">
+     <BrowserRouter>
       <Products>
         <Routes>
    {/* <Route path="/" element={isAuthenticated ? <HomePage /> : <Navigate to="/login" />} /> */}
@@ -57,10 +61,13 @@ const App = () => {
           <Route path="/project/project1" element={< Project1/>} />
           <Route path="/project/project2" element={< Project2/>} />
           <Route path="/project/project3" element={< Project3/>} />
+          <Route path="/dashboard" element={< Dashboard/>} />
+          <Route path="/dashboard/users" element={< Users/>} />
           <Route path="*" element={< NotFound/>} />
         </Routes>
       </Products>
     </BrowserRouter>
+   </div>
   );
 };
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../assets/Logo.png";
+import logo from "../../assets/Logo1.png";
 
 const Content = () => {
   const [count1, setCount1] = useState(0);
@@ -42,7 +42,7 @@ const Content = () => {
   return (
     <div className="max-w-[1200px] mx-auto pt-32 ">
       <div className="p-6">
-        <h2 className="text-4xl text-[#222] mb-[2px] ">ÜBER UNS</h2>
+        <h2 className="text-4xl text-[#222] mb-[2px] dark:text-white ">ÜBER UNS</h2>
         <p className="text-center text-3xl font-sans mb-16 mt-12">
           {" "}
           Wir entwickeln Projekte von der Konzeption bis zu den letzten Details
@@ -56,14 +56,14 @@ const Content = () => {
     <div className=" bg-slate-50 w-28 h-28 relative flex justify-center items-center">
       <div className="text-center">
         <span className="text-3xl block">{count1} +</span>
-        <h5 className="mt-2 text-sm whitespace-nowrap pl-36 text-[#9C9E9C]">LANGJÄHRIGEER FAHRUNG</h5>
+        <h5 className="mt-2 text-sm whitespace-nowrap pl-36 text-[#9C9E9C] dark:text-black dark:font-extrabold">LANGJÄHRIGEER FAHRUNG</h5>
       </div>
     </div>
 
     <div className="bg-slate-50 w-28 h-28 relative flex justify-center items-center ml-32  ">
       <div className="text-center">
         <span className="text-3xl block">{count2} +</span>
-        <h5 className="mt-2 text-sm whitespace-nowrap ml-20 text-[#9C9E9C]">ZUFRIEDENE KUNDEN
+        <h5 className="mt-2 text-sm whitespace-nowrap ml-20 text-[#9C9E9C] dark:text-black dark:font-extrabold">ZUFRIEDENE KUNDEN
 </h5>
       </div>
     </div>
@@ -72,8 +72,8 @@ const Content = () => {
   <div className="flex mt-4">
     <div className="bg-slate-50 w-28 h-28 relative flex justify-center items-center mt-12">
       <div className="text-center">
-        <span className="text-3xl block">{count3} +</span>
-        <h5 className="mt-2 text-sm whitespace-nowrap pl-[75px] text-[#9C9E9C]">FERTIGE PROJEKTE
+        <span className="text-3xl block">{count3} +</span> 
+        <h5 className="mt-2 text-sm whitespace-nowrap pl-[75px] text-[#9C9E9C] dark:text-black dark:font-extrabold">FERTIGE PROJEKTE
 </h5>
       </div>
     </div>
@@ -81,7 +81,7 @@ const Content = () => {
     <div className="bg-slate-50 w-28 h-28 relative flex justify-center items-center ml-32 mt-12">
       <div className="text-center">
         <span className="text-3xl block">{count4} +</span>
-        <h5 className="mt-2 text-sm whitespace-nowrap pl-[45px] text-[#9C9E9C] ">DESIGNPREISE</h5>
+        <h5 className="mt-2 text-sm whitespace-nowrap pl-[45px] text-[#9C9E9C] dark:text-black dark:font-extrabold ">DESIGNPREISE</h5>
       </div>
     </div>
   </div>
