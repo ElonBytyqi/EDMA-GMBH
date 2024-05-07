@@ -5,7 +5,7 @@ import foto3 from "../assets/foto3.png";
 
 const Specilization = ({ name, title, p1, p2, p3, desc1, desc2, desc3,desc3Style,desc1Style }) => {
   return (
-    <div className="mt-[15pc] max-w-[1250px]  m-auto min-h-[80vh] mb-24 ">
+    <div className="md:mt-[15pc] max-w-[1250px]  m-auto min-h-[80vh] mb-24 ">
       <h3
         className="text-center
         mb-[9px] text-[12px] font-normal tracking-[.2em] text-[#AFAFAF]"
@@ -15,8 +15,8 @@ const Specilization = ({ name, title, p1, p2, p3, desc1, desc2, desc3,desc3Style
 
       <h1 className="text-center text-[38px] pb-12">{title}</h1>
 
-      <div className="flex w-full  justify-between items-center">
-        <div className="flex flex-col justify-center items-center w-[32%] h-350px ">
+      <div className="md:flex md:flex-row w-full flex-col justify-center items-start text-center   md:justify-between md:items-center">
+        <div className="flex flex-col justify-center items-center w-[32%] h-350px ml-44 md:ml-0 pt-20 md:pt-4 ">
           <img
             className=" ease-in duration-300 hover:scale-110 mb-8 pb-8     "
             src={foto1}
@@ -28,19 +28,19 @@ const Specilization = ({ name, title, p1, p2, p3, desc1, desc2, desc3,desc3Style
           </p>{" "}
         </div>
 
-        <div className="flex flex-col justify-center items-center w-[32%] h-auto ">
+        <div className="flex flex-col justify-center items-center w-[32%] h-auto ml-44 md:ml-0 pt-20 md:pt-4 ">
           <img
             className=" ease-in duration-300 mb-8 pb-8   hover:scale-110"
             src={foto2}
             alt=""
           />
           <h3 className="pb-4 text-base text-[#222] ">{p2}</h3>
-          <p className="w-[380px] mb-10  text-justify font-apple text-base  text-[#999] ">
+          <p className="w-[380px] mb-10  text-justify font-apple text-base  text-[#999]  md:ml-0 p  ">
             {desc2}
           </p>
         </div>
 
-        <div className="flex flex-col justify-center items-center w-[32%] h-350px ">
+        <div className="flex flex-col justify-center items-center w-[32%] h-350px ml-40 md:ml-0 pt-20 md:pt-4  ">
           <img
             className=" ease-in duration-300 hover:scale-110 mb-8 pb-8   "
             src={foto3}

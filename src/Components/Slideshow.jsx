@@ -21,7 +21,7 @@ const Slideshow = () => {
   return (
     <div
       id="carouselExampleCaptions"
-      className="relative max-w-[1250px] mx-auto mb-20 "
+      className="relative max-w-[1250px] mx-auto mb:mb-20 "
       data-twe-carousel-init
       data-twe-ride="carousel"
       
@@ -48,7 +48,7 @@ const Slideshow = () => {
         {[construction, construction2, construction3].map((image, index) => (
           <div
             key={index}
-            className={`relative float-left -mr-[100%] ${
+            className={`relative float-left -mr-[100%] h-72 md:h-auto ${
               index === activeIndex ? "" : "hidden"
             } w-full transition-transform duration-[600ms] ease-in-out motionReduce:transitionNone`}
             data-twe-carousel-active

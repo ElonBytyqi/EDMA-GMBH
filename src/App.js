@@ -21,6 +21,11 @@ import ProjectSupervision from "./Pages/ProjectSupervision";
 import ProjectManagement from "./Pages/ProjectManagement";
 
 import Construction from "./Pages/Construction";
+import Projects from "./Pages/Projects";
+import Project1 from "./Components/Project1";
+import Project2 from "./Components/Project2";
+import Project3 from "./Components/Project3";
+import NotFound from "./Pages/NotFound";
 
 const App = () => {
    const token = AuthService.getToken()
@@ -48,6 +53,11 @@ const App = () => {
           <Route path="/project-supervision" element={< ProjectSupervision/>} />
           <Route path="/project-management" element={< ProjectManagement/>} />
           <Route path="/construction" element={< Construction/>} />
+          <Route path="/projects" element={< Projects/>} />
+          <Route path="/project/project1" element={< Project1/>} />
+          <Route path="/project/project2" element={< Project2/>} />
+          <Route path="/project/project3" element={< Project3/>} />
+          <Route path="*" element={< NotFound/>} />
         </Routes>
       </Products>
     </BrowserRouter>

@@ -16,10 +16,10 @@ const Clients = () => {
   };
 
   return (
-    <div className='mt-[15pc] max-w-[1250px] m-auto min-h-[80vh] mb-24'>
+    <div className='md:mt-[15pc] mt-[5pc] max-w-[1250px] m-auto min-h-[80vh] mb-24'>
       <h3 className='text-center mb-[9px] text-[12px] font-normal tracking-[.2em] text-[#AFAFAF]'>AWESOME PARTNER</h3>
       <h1 className='text-center text-[38px] pb-12'>Our Clients</h1>
-      <div className='grid grid-cols-4 gap-4'>
+      <div className='grid md:grid-cols-4 grid-cols-3 gap-4'>
         {clientData.clients.map(client => (
           <img
             key={client.id}
